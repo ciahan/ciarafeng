@@ -18,7 +18,7 @@ export default function ArtCategory () {
                     >
                         <div className="flex-1 flex justify-center">
                             <img 
-                                src={`/visualArts/${selectedCategory.id}/${artwork.image}`}
+                                src={`${import.meta.env.BASE_URL}visualArts/${selectedCategory.id}/${artwork.image}`}
                                 style={{ width: "auto", height: "500px" }}
                             />
                         </div>

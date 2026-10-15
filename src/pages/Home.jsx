@@ -12,7 +12,7 @@ export default function Home() {
                     className="linkButton"
                 >
                     <img 
-                        src="/webDev/CrochetMath Studio.png"
+                        src={`${import.meta.env.BASE_URL}webDev/CrochetMath Studio.png`}
                         style={{ width: "auto", height: "300px" }}
                     />
                     <h2> Web-Dev </h2>
@@ -22,7 +22,7 @@ export default function Home() {
                     className="linkButton"
                 >
                     <img 
-                        src="/games/BeatDropThumbnail.png"
+                        src={`${import.meta.env.BASE_URL}games/BeatDropThumbnail.png`}
                         style={{ width: "auto", height: "300px" }}
                     />
                     <h2> Games </h2>
@@ -32,7 +32,7 @@ export default function Home() {
                     className="linkButton"
                 >
                     <img 
-                        src="/visualArts/drawings/RainyDay.PNG"
+                        src={`${import.meta.env.BASE_URL}visualArts/drawings/RainyDay.PNG`}
                         style={{ width: "auto", height: "300px" }}
                     />
                     <h2> Visual Arts </h2>
@@ -42,7 +42,7 @@ export default function Home() {
                     className="linkButton"
                 >
                     <img 
-                        src="/crochet/blankets/PersianTiles.jpg"
+                        src={`${import.meta.env.BASE_URL}crochet/blankets/PersianTiles.jpg`}
                         style={{ width: "auto", height: "300px" }}
                     />
                     <h2> Crochet </h2>

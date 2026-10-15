@@ -16,7 +16,7 @@ export default function Games() {
                         className="linkButton flex flex-col items-center"
                     >
                         <img 
-                            src={`/games/${game.img}`}
+                            src={`${import.meta.env.BASE_URL}games/${game.img}`}
                             style={{ height: "400px", width: "auto"}}
                         />
                         <h2> {game.name} </h2>

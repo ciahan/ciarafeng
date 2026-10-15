@@ -16,7 +16,7 @@ export default function VisualArts() {
                         className="linkButton"
                     >
                         <img 
-                            src={`/visualArts/${category.id}/${category.artworks[0].image}`}
+                            src={`${import.meta.env.BASE_URL}visualArts/${category.id}/${category.artworks[0].image}`}
                             style={{ width: "auto", height: "500px" }}
                         />
                         <h2> {category.type} </h2>
