@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  padding: 1.5rem;
+  gap: 2rem;
+  font-size: 24px;
+  border-bottom: 2px solid rgb(255, 235, 248);
+}
+
+.page {
+  padding-top: 1.5rem;
+  padding-inline: 8rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 3rem;
+  column-gap: 1rem;
+
+  @media (max-width: 1440px) {
+    padding-inline: 0rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.linkButton {
+  transition: transform 0.3s ease;
+}
+.linkButton:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.blurb {
+  font-family: "Gaegu", sans-serif; 
+  color: black;
+}
+.title {
+  font-size: 36px;
+  letter-spacing: -1.8px;
+  line-height: 100%;
+  font-weight: 600;
+}
+.year {
+  font-size: 36px;
+}
+.medium {
+  font-size: 24px;
+  font-style: italic;
+}
+.description {
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: -1.5px;
+}
