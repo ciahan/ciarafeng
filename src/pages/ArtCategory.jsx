@@ -7,6 +7,9 @@ export default function ArtCategory () {
     const selectedCategory = visualArts.find(
         (item) => item.slug == category
     )
+
+    console.log("BASE_URL:", import.meta.env.BASE_URL);
+    console.log("Category:", selectedCategory.id);
     return (
         <>
             <h1> {selectedCategory.type} </h1>

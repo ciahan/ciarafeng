@@ -16,7 +16,7 @@ export default function WebDev() {
                             className="linkButton flex flex-col items-center"
                         >
                             <img 
-                                src={`/webDev/${project.image}`}
+                                src={`${import.meta.env.BASE_URL}webDev/${project.image}`}
                                 style={{ width: "500px", height: "auto" }}
                             />
                             <h2> {project.name} </h2>
