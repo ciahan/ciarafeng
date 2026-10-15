@@ -8,8 +8,6 @@ export default function ArtCategory () {
         (item) => item.slug == category
     )
 
-    console.log("BASE_URL:", import.meta.env.BASE_URL);
-    console.log("Category:", selectedCategory.id);
     return (
         <>
             <h1> {selectedCategory.type} </h1>
@@ -21,7 +19,7 @@ export default function ArtCategory () {
                     >
                         <div className="flex-1 flex justify-center">
                             <img 
-                                src={`${import.meta.env.BASE_URL}visualArts/${selectedCategory.id}/${artwork.image}`}
+                                src={`/ciarafeng/visualArts/${selectedCategory.id}/${artwork.image}`}
                                 style={{ width: "auto", height: "500px" }}
                             />
                         </div>

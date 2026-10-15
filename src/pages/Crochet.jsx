@@ -16,7 +16,7 @@ export default function Crochet() {
                         className="linkButton"
                     >
                         <img 
-                            src={`${import.meta.env.BASE_URL}crochet/${category.id}/${category.works[0].image}`}
+                            src={`/ciarafeng/crochet/${category.id}/${category.works[0].image}`}
                             style={{ width: "auto", height: "500px" }}
                         />
                         <h2> {category.type} </h2>

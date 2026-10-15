@@ -18,7 +18,7 @@ export default function CrochetCategory () {
                     >
                         <div className="flex-1 flex justify-center">
                             <img 
-                                src={`${import.meta.env.BASE_URL}crochet/${selectedCategory.id}/${work.image}`}
+                                src={`/ciarafeng/crochet/${selectedCategory.id}/${work.image}`}
                                 style={{ width: "auto", height: "500px" }}
                             />
                         </div>
