@@ -14,7 +14,7 @@ export default function CrochetCategory () {
                 {selectedCategory.works.map((work) => (
                     <div
                         key={work.id}
-                        className="flex items-center"
+                        className="work items-center"
                     >
                         <div className="flex-1 flex justify-center">
                             <img 

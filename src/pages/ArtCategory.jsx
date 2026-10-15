@@ -15,7 +15,7 @@ export default function ArtCategory () {
                 {selectedCategory.artworks.map((artwork) => (
                     <div
                         key={artwork.id}
-                        className="flex items-center"
+                        className="work items-center"
                     >
                         <div className="flex-1 flex justify-center">
                             <img 

@@ -10,7 +10,7 @@ export default function About() {
                 className="flex flex-col gap-12"
             >
                 <div
-                    className="flex gap-1"
+                    className="about flex"
                 >
                     <div
                         className="flex-1 flex flex-col items-center"

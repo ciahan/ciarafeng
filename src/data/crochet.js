@@ -154,7 +154,7 @@ export const crochet = [
                 description: "",
             },
             {
-                title: "Sine Wave Scarf",
+                title: "Sine Wave Scarf (Original Pattern)",
                 id: "sine-scarf",
                 image: "SineWaveScarf.jpeg",
                 year: 2023,

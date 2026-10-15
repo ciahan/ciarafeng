@@ -58,3 +58,22 @@
   line-height: 130%;
   letter-spacing: -1.5px;
 }
+
+.work {
+  display: flex;
+  gap: 1rem;
+  @media (max-width: 1440px) {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+}
+
+.about {
+  display: flex;
+  gap: 1rem;
+
+  @media (max-width: 1440px) {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+}
